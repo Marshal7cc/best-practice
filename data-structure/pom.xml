@@ -9,5 +9,5 @@
         <groupId>org.epoch</groupId>
         <version>1.0.0-SNAPSHOT</version>
     </parent>
-    <artifactId>handwriting-wheel-data-structure</artifactId>
+    <artifactId>data-structure</artifactId>
 </project>
