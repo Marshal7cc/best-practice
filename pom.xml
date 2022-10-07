@@ -5,12 +5,43 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>org.epoch</groupId>
-    <artifactId>handwriting-wheels</artifactId>
+    <artifactId>best-practice</artifactId>
     <version>1.0.0-SNAPSHOT</version>
     <packaging>pom</packaging>
+
+    <properties>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+        <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
+    </properties>
 
     <modules>
         <module>annotation-processor</module>
         <module>data-structure</module>
+        <module>deep-page-query</module>
     </modules>
+
+    <dependencyManagement>
+        <dependencies>
+            <dependency>
+                <groupId>org.epoch</groupId>
+                <artifactId>epoch-dependencies</artifactId>
+                <version>1.0.0.RELEASE</version>
+                <type>pom</type>
+                <scope>import</scope>
+            </dependency>
+        </dependencies>
+    </dependencyManagement>
+
+    <build>
+        <plugins>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-compiler-plugin</artifactId>
+                <configuration>
+                    <source>8</source>
+                    <target>8</target>
+                </configuration>
+            </plugin>
+        </plugins>
+    </build>
 </project>

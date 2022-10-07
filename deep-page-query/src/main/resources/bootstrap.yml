@@ -1,0 +1,13 @@
+spring:
+  application:
+    name: deep-page-query
+  profiles:
+    active: local
+
+  # nacos local mode
+  cloud:
+    nacos:
+      config:
+        enabled: false
+      discovery:
+        enabled: false
