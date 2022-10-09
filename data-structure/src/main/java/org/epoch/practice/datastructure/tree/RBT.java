@@ -1,4 +1,4 @@
-package org.epoch.handwriting.wheels.datastructure;
+package org.epoch.practice.datastructure.tree;
 
 import java.util.LinkedList;
 import java.util.Queue;
