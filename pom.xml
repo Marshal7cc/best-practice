@@ -18,6 +18,7 @@
         <module>annotation-processor</module>
         <module>data-structure</module>
         <module>deep-page-query</module>
+        <module>note</module>
     </modules>
 
     <dependencyManagement>
